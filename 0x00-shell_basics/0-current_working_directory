@@ -1,3 +1,2 @@
 #!/bin/bash
-echo "pwd stands for Print Working Directory. It prints the path of the working directory, starting from the root.
-pwd is shell built-in command(pwd) or an actual binary(/bin/pwd)"
+echo "pwd stands for Print Working Directory. It prints the path of the working directory, starting from the root"

@@ -1,2 +1,2 @@
 #!/bin/bash
-find . | wc -l
+find /mount/point -type d | wc -l

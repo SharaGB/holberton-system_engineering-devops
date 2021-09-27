@@ -1,2 +1,2 @@
 #!/bin/bash
-sort iacta | uniq -u3
+wc line#3

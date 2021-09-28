@@ -1,2 +1,2 @@
 #!/bin/bash
-/PATH/ls -lA  | egrep -c '^-'
+ls -l | grep -c ^d PATH

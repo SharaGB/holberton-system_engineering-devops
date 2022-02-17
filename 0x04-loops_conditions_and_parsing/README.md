@@ -1,9 +1,4 @@
-# Loops, conditions and parsing.
-
-<div class="well clean" id="project-description">
-  <h2>Background Context</h2>
-
-<p><a href="https://youtu.be/BC2neyc5GcI" target="_blank"><img src="https://holbertonintranet.s3.amazonaws.com/uploads/medias/2019/6/b07e3333b1edfb9beed5.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIARDDGGGOU5BHMTQX4%2F20220217%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20220217T161757Z&amp;X-Amz-Expires=86400&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=304ec02429dc0e4cf9ad617f67c4750b9fc85e8a5e74ac87bc85d48f65f85d3b" alt="" style=""></a></p>
+# <a href="url"><img src="https://user-images.githubusercontent.com/90220978/154560769-7ff96e09-924b-49b8-96b7-6aba7cb53ef7.png" align="middle" width="150" height="150"></a> Loops, conditions and parsing.
 
 <h2>Resources</h2>
 

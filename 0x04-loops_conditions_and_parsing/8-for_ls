@@ -7,5 +7,5 @@
 comand="$(ls)"
 for ls in $comand;
 do
-    echo $ls | cut -d'-' -f2
+    echo "$ls" | cut -d'-' -f2
 done

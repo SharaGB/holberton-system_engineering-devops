@@ -1,4 +1,4 @@
-# <a href="url"><img src="https://user-images.githubusercontent.com/90220978/154560769-7ff96e09-924b-49b8-96b7-6aba7cb53ef7.png" align="middle" width="150" height="150"></a> Loops, conditions and parsing.
+# <a href="url"><img src="https://user-images.githubusercontent.com/90220978/154560769-7ff96e09-924b-49b8-96b7-6aba7cb53ef7.png" align="middle" width="140" height="140"></a> Loops, conditions and parsing.
 
 <h2>Resources</h2>
 

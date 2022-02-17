@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+# Bash script that loops from 1 to 10 and:
+#+ displays bad luck for the 4th loop iteration
+#+ displays good luck for the 8th loop iteration
+#+ displays Best School for the other iterations
+
+str=1
+while [ "$str" -le 10 ];
+do
+    if [ "$str" -eq 4 ]
+    then
+	    echo 'bad luck'
+    elif [ "$str" -eq 8 ]
+    then
+	    echo 'good luck'
+    else
+	    echo 'Best School'
+    fi
+    str=$((str + 1))
+done

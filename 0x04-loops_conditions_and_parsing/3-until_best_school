@@ -5,5 +5,5 @@ STR=0
 until [ "$STR" -eq 10 ];
 do
     echo 'Best School'
-    let STR=$STR+1
+    let STR=STR+1
 done

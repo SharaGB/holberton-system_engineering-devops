@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Bash script that displays Best School 10 times.
 
-str=0
+str=1
 while [ "$str" -le 10 ];
 do
     echo 'Best School'
@@ -10,5 +10,5 @@ do
     then
         echo 'Hi'
     fi
-    str=$((str+1))
+    str=$((str + 1))
 done

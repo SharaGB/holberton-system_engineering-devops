@@ -2,7 +2,7 @@
 # Bash script that displays Best School 10 times.
 
 str=0
-until [ $str -ge 10 ];
+until [ "$str" -ge 10 ];
 do
     echo 'Best School'
     let str=str+1

@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 # Bash script that displays Best School 10 times.
 
-str=0
-until [ "$str" -eq 10 ];
+STR=0
+until [ "$STR" -eq 10 ];
 do
     echo 'Best School'
-    let str=$str+1
+    let STR=$STR+1
 done

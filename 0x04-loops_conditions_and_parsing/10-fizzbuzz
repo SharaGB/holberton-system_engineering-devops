@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+# Bash script that displays numbers from 1 to 100.
+
+fb=1;
+while [ "$fb" -le 100 ];
+do
+    if [ $((fb % 15)) -eq 0 ]
+    then
+	    echo "FizzBuzz"
+    elif [ $((fb % 3)) -eq 0 ]
+    then
+	    echo "Fizz"
+    elif [ $((fb % 5)) -eq 0 ];
+    then
+        echo "Buzz"
+    else
+	    echo $fb
+    fi
+    fb=$((fb + 1))
+done

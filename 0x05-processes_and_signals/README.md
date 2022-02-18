@@ -7,7 +7,7 @@
 
 <p>Unless stated, all your projects will be auto-corrected with Ubuntu 20.04 LTS.</p>
 
-<p><img src="https://holbertonintranet.s3.amazonaws.com/uploads/medias/2020/9/d8ecfe9109334898b9540ffd20cf64d1c06f0c09.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIARDDGGGOU5BHMTQX4%2F20220218%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20220218T143700Z&amp;X-Amz-Expires=86400&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=91fed5afd3e489aa8322e47d33fb6d156714275815bcab011b119fce6731f72b" alt="" style=""></p>
+<img src="https://holbertonintranet.s3.amazonaws.com/uploads/medias/2020/9/d8ecfe9109334898b9540ffd20cf64d1c06f0c09.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIARDDGGGOU5BHMTQX4%2F20220218%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20220218T143700Z&amp;X-Amz-Expires=86400&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=91fed5afd3e489aa8322e47d33fb6d156714275815bcab011b119fce6731f72b" alt="" style="">
 
 <div class="well clean" id="project-description">
   <h2>Resources</h2>

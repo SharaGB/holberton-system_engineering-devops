@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <unistd.h>
+#include <unistd.h> /* For sleep and fork warning */
 /**
  * infinite_while - Infinite loop that pause for 1 second.
  *
@@ -23,7 +23,7 @@ int infinite_while(void)
 int main(void)
 {
 	int process = 0;
-	int pid;
+	int pid = 0;
 
 	while (process < 5) /* Creates 5 zombie processes */
 	{

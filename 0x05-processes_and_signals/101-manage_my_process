@@ -6,11 +6,11 @@ case "$1" in
         echo $$ > $file
         echo 'manage_my_process started'
 	    ;;
-     stop) kill "$(pgrep -f /manage_my_process)"
+     stop) pkill -f manage_my_process
 	    rm $file
 	    echo 'manage_my_process stopped'
 		;;
-    restart) kill "$(pgrep -f /manage_my_process)"
+    restart) pkill -f manage_my_process
 	    rm $file
 	    ./manage_my_process &
 	    echo $$ > $file

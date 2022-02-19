@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <unistd.h>
 /**
  * infinite_while - Infinite loop that pause for 1 second.
  *
@@ -21,16 +22,21 @@ int infinite_while(void)
  */
 int main(void)
 {
-	int i = 0, process_id;
+	int process = 0;
+	int pid;
 
-	while (i < 5)
+	while (process < 5) /* Creates 5 zombie processes */
 	{
-		process_id = fork();
-		if (process_id > 0)
-			printf("Zombie process created, PID: %d\n", process_id);
+		pid = fork(); /* Create a child process */
+		if (pid > 0)
+		{
+			printf("Zombie process created, PID: %d\n", pid);
+		}
 		else
-			return (0);
-		i++;
+		{
+			exit(0);
+		}
+		process++;
 	}
 	infinite_while();
 	return (0);

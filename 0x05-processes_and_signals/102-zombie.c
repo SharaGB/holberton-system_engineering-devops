@@ -22,10 +22,11 @@ int infinite_while(void)
 int main(void)
 {
 	int process = 0;
-	int pid = fork(); /* Create a child process */
+	int pid = 0;
 
 	while (process < 5)
 	{
+		pid = fork(); /* Create a child process */
 		if (pid > 0)
 		{
 			printf("Zombie process created, PID: %d\n", pid);

@@ -24,7 +24,7 @@ int main(void)
 	int process = 0;
 	int pid = 0;
 
-	while (process < 5)
+	while (process < 5) /* Creates 5 zombie processes */
 	{
 		pid = fork(); /* Create a child process */
 		if (pid > 0)

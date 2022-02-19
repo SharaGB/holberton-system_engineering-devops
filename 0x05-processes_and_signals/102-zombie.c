@@ -22,7 +22,7 @@ int infinite_while(void)
 int main(void)
 {
 	int process = 0;
-	int pid = 0;
+	int pid;
 
 	while (process < 5) /* Creates 5 zombie processes */
 	{

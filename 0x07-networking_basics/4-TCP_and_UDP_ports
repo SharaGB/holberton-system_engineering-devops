@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# La opción -p muestra el PID/nombre del proceso
+#+ La opción -l muestra solo los conectores de escucha.
+
+sudo netstat -pl

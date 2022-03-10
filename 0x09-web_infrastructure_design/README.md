@@ -1,4 +1,4 @@
-# Web Infrastructure Design
+# <a href="url"><img src="https://user-images.githubusercontent.com/90220978/157567093-c8332dce-829b-4c77-a1a9-81821c3b9b71.jpg" align="middle" width="100" height="100"></a> Web Infrastructure Design
 
 <h2>Concepts</h2>
 <div class="panel panel-default">
@@ -17,7 +17,7 @@
             <a href="https://intranet.hbtn.io/concepts/17">Web Server</a>
           </li>
 <li>
-            <a href="https://intranet.hbtn.io/concepts/17">Network basics</a>
+            <a href="https://intranet.hbtn.io/concepts/33">Network basics</a>
           </li>
 <li>
             <a href="https://intranet.hbtn.io/concepts/46">Load balancer</a>
@@ -27,6 +27,9 @@
           </li>
 
   </div>
+    
+ 
+![infrastructure-icon-set-four-elements-diferent-styles-community-icons-collection-creative-filled-outline-colored-flat-161095671](https://user-images.githubusercontent.com/90220978/157567610-7c177ad8-32af-4481-8f20-6f44f980c0bd.jpg)
 
 <h2>Resources</h2>
 
@@ -45,7 +48,7 @@
 <li><a href="https://en.wikipedia.org/wiki/Single_point_of_failure" title="Single point of failure" target="_blank">Single point of failure</a> </li>
 <li><a href="https://softwareengineering.stackexchange.com/questions/35063/how-do-you-update-your-production-codebase-database-schema-without-causing-downt#answers-header" title="How to avoid downtime when deploying new code" target="_blank">How to avoid downtime when deploying new code</a> </li>
 <li><a href="https://docs.oracle.com/cd/E17904_01/core.1111/e10106/intro.htm#ASHIA714" title="High availability cluster (active-active/active-passive)" target="_blank">High availability cluster (active-active/active-passive)</a> </li>
-<li><a href="https://docs.oracle.com/cd/E17904_01/core.1111/e10106/intro.htm#ASHIA714" title="What is HTTPS" target="_blank">What is HTTPS</a> </li>
+<li><a href="https://www.instantssl.com/http-vs-https" title="What is HTTPS" target="_blank">What is HTTPS</a> </li>
 <li><a href="https://www.webopedia.com/definitions/firewall/" title="What is a firewall" target="_blank">What is a firewall</a> </li>
 </ul>
 

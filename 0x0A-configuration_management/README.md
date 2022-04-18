@@ -29,11 +29,11 @@
 <p><strong>Read or watch</strong>:</p>
 
 <ul>
-<li><a href="/rltoken/r-NmkYO8bxIKp2qEx2ZjKQ" title="Intro to Configuration Management" target="_blank">Intro to Configuration Management</a> </li>
-<li><a href="/rltoken/D0-IO_SIZSXYLKJs2BitYA" title="Puppet resource type: file" target="_blank">Puppet resource type: file</a> (<em>check “Resource types” for all manifest types in the left menu</em>)</li>
-<li><a href="/rltoken/Fqmb5rnChQgYAypvKoTxAQ" title="Puppet's Declarative Language: Modeling Instead of Scripting" target="_blank">Puppet’s Declarative Language: Modeling Instead of Scripting</a></li>
-<li><a href="/rltoken/oezu0m_hJ8nEVA6a9o17Tw" title="Puppet lint" target="_blank">Puppet lint</a> </li>
-<li><a href="/rltoken/N70cVw8mG3707He-OxjP1w" title="Puppet emacs mode" target="_blank">Puppet emacs mode</a> </li>
+<li><a href="https://www.digitalocean.com/community/tutorials/an-introduction-to-configuration-management" title="Intro to Configuration Management" target="_blank">Intro to Configuration Management</a> </li>
+<li><a href="https://puppet.com/docs/puppet/5.5/types/file.html" title="Puppet resource type: file" target="_blank">Puppet resource type: file</a> (<em>check “Resource types” for all manifest types in the left menu</em>)</li>
+<li><a href="https://puppet.com/blog/puppets-declarative-language-modeling-instead-of-scripting/" title="Puppet's Declarative Language: Modeling Instead of Scripting" target="_blank">Puppet’s Declarative Language: Modeling Instead of Scripting</a></li>
+<li><a href="http://puppet-lint.com" title="Puppet lint" target="_blank">Puppet lint</a> </li>
+<li><a href="https://github.com/voxpupuli/puppet-mode" title="Puppet emacs mode" target="_blank">Puppet emacs mode</a> </li>
 </ul>
 
 <h2>Requirements</h2>

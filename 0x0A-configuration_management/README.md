@@ -1,4 +1,4 @@
-# <a href="url"><img src="https://user-images.githubusercontent.com/90220978/163882262-4be9b1a8-d207-4715-903a-b6e0dda45461.png" align="middle" width="90" height="90"></a> Configuration Management
+# <a href="url"><img src="https://user-images.githubusercontent.com/90220978/163882578-0ed19412-6a7e-49cc-a316-4c4f4eb7e4c7.png" align="middle" width="90" height="90"></a> Configuration Management
 
 <div class="well clean" id="project-description">
   <h2>Background Context</h2>

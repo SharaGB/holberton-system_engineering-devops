@@ -1,9 +1,9 @@
-# <a href="url"><img src="https://user-images.githubusercontent.com/90220978/163882578-0ed19412-6a7e-49cc-a316-4c4f4eb7e4c7.png" align="middle" width="90" height="90"></a> Configuration Management
+# Configuration Management
 
 <div class="well clean" id="project-description">
   <h2>Background Context</h2>
 
-<p><a href="https://youtu.be/ogYLFyp68cI" target="_blank"><img src="https://holbertonintranet.s3.amazonaws.com/uploads/medias/2019/6/6a0a8024f2b1c47a9d1e.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIARDDGGGOU5BHMTQX4%2F20220418%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20220418T203111Z&amp;X-Amz-Expires=86400&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=cffa14ae5dbe0b829c3ba1be4a2cba54826fb5160c790dbe37660c37b76587aa" alt="" style=""></a></p>
+![Puppet-logo-1](https://user-images.githubusercontent.com/90220978/163882789-c0e8744e-67a3-4329-8d0c-c56b33350556.png)
 
 <p>When I was working for SlideShare, I worked on an auto-remediation tool called <a href="/rltoken/ftFvBjxNPLoWcF9eHaK8yw" title="Skynet" target="_blank">Skynet</a> that monitored, scaled and fixed Cloud infrastructure. I was using a parallel job-execution system called MCollective that allowed me to execute commands to one or multiple servers at the same time. I could apply an action to a selected set of servers by applying a filter such as the server’s hostname or any other metadata we had (server type, server environment…). At some point, a bug was present in my code that sent <code>nil</code> to the filter method. </p>
 

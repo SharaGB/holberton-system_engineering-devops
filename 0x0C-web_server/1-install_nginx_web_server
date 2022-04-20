@@ -1,11 +1,7 @@
 #!/usr/bin/env bash
 # Install nginx on your web-01 server
-if ! which nginx > /dev/null 2>&1;
-# sudo apt-get update
-then
-    echo 'Hello World'
-else
-    sudo apt-get -y install nginx
-    # Check if nginx services are active
-    sudo service nginx start
-fi
+sudo apt-get update
+sudo apt-get -y install nginx
+echo 'Hello World' > /usr/local/nginx/html
+# Check if nginx services are active
+sudo service nginx start

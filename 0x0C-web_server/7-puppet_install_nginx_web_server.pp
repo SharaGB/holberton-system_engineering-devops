@@ -8,7 +8,7 @@ file { '/var/www/html/index.html':
   content => 'Hello World',
 }
 
-file_line { 'redirection-301':
+file_line { '/redirect_me 301':
   ensure => 'present',
   path   => '/etc/nginx/sites-available/default',
   after  => 'listen 80 default_server;',

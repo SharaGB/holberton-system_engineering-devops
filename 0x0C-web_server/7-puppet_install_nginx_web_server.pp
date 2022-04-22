@@ -9,7 +9,7 @@ service { 'nginx':
   require => Package['nginx'],
 }
 
-file { '/var/www/html/index.html':
+file { '/var/www/html/index.nginx-debian.html':
   content => 'Hello World',
 }
 

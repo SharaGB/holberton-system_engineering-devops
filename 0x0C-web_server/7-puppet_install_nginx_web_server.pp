@@ -1,7 +1,7 @@
 # Install and configure an Nginx server using Puppet
 
 package { 'nginx':
-  ensure => 'installed'
+  ensure => installed
 }
 
 file { '/var/www/html/index.html':

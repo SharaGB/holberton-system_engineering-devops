@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Find out what’s keeping your Ubuntu container’s
+# Nginx installation from listening on port 80
+sed -i "s/8080/80/" /etc/nginx/sites-enabled/default
+service nginx restart # There are 3 ways to fix Nginx listening on port 80:
+# Reinstalling Nginx
+# Copying the path from where it is ok to the one we want to change
+# or with the sed command and its indications.

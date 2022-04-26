@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Script that change the port to 80 & create a zombie process
+sed -i "s/8080/80/" /etc/nginx/sites-enabled/default
+service nginx restart
+kill -9 "$(pgrep nginx)"
+# rm var/run/nginx.pid - Completely removes the path, which prevents Nginx from running again.

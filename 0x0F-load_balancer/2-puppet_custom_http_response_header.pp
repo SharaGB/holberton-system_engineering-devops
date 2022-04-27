@@ -8,6 +8,7 @@
 #                service nginx restart',
 #  provider => shell,
 # }
+
 exec { 'apt-get-update':
   command => '/usr/bin/apt-get update',
 }
@@ -27,6 +28,7 @@ file_line { '/redirect_me 301':
   after  => 'listen 80 default_server;',
   path   => '/etc/nginx/sites-available/default',
   line   => 'rewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;',
+  require => Package['nginx'],
 }
 
 file_line { 'X-Served-By':
@@ -34,6 +36,7 @@ file_line { 'X-Served-By':
   after  => 'listen 80 default_server;',
   path   => '/etc/nginx/sites-available/default',
   line   => 'add_header X-Served-By $HOSTNAME;',
+  require => Package['nginx'],
 }
 
 service { 'nginx':

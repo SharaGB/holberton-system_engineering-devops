@@ -32,7 +32,7 @@ file_line { 'X-Served-By':
   ensure => present,
   after  => 'listen 80 default_server;',
   path   => '/etc/nginx/sites-available/default',
-  line   => 'add_header X-Served-By $HOSTNAME;"',
+  line   => 'add_header X-Served-By $HOSTNAME;',
 }
 
 service { 'nginx':

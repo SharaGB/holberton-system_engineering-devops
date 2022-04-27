@@ -7,7 +7,7 @@
 #                sudo sed -i "/server_name _;/ a add_header X-Served-By $HOSTNAME;" /etc/nginx/sites-available/default
 #                service nginx restart',
 #  provider => shell,
-# }
+# }  It also works!
 
 exec { 'apt-get-update':
   command => '/usr/bin/apt-get update',

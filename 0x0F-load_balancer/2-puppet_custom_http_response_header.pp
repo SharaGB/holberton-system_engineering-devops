@@ -9,13 +9,8 @@
 #  provider => shell,
 # }  It also works!
 
-exec { 'apt-get-update':
-  command => '/usr/bin/apt-get update',
-}
-
 package { 'nginx':
   ensure  => installed,
-  require => Exec['apt-get-update'],
 }
 
 file { '/var/www/html/index.html':
@@ -24,18 +19,18 @@ file { '/var/www/html/index.html':
 }
 
 file_line { '/redirect_me 301':
-  ensure => present,
-  after  => 'listen 80 default_server;',
-  path   => '/etc/nginx/sites-available/default',
-  line   => 'rewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;',
+  ensure  => present,
+  after   => 'listen 80 default_server;',
+  path    => '/etc/nginx/sites-available/default',
+  line    => 'rewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;',
   require => Package['nginx'],
 }
 
 file_line { 'X-Served-By':
-  ensure => present,
-  after  => 'listen 80 default_server;',
-  path   => '/etc/nginx/sites-available/default',
-  line   => 'add_header X-Served-By $HOSTNAME;',
+  ensure  => present,
+  after   => 'listen 80 default_server;',
+  path    => '/etc/nginx/sites-available/default',
+  line    => 'add_header X-Served-By $HOSTNAME;',
   require => Package['nginx'],
 }
 

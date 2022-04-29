@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Run the whoami command as a user other than root
+sudo -u "$1" whoami

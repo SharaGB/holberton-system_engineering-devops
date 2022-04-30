@@ -4,7 +4,7 @@
 domain_information () {
     domain="$1"
     subdomain="$2"
-    dig "$subdomain.$domain" | grep -A1 'ANSWER SECTION:' | awk -v SUB_DOMAIN="$2" 'NR==2 {print "The subdomain " SUB_DOMAIN " is a " $4 " record and points to " $5}'
+    dig "$subdomain.$domain" | grep -A1 'ANSWER SECTION:' | awk 'NR==2 {print "The subdomain " $2 " is a " $3 " record and points to " $4}'
 }
 
 if [ "$#" -eq 1 ]

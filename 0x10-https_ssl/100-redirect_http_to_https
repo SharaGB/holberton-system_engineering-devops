@@ -35,15 +35,15 @@ defaults
 
 frontend http
         bind *:80
-        reqadd X-Forwarded-Proto:\ http
-        default_backend myservers
 
-frontend https
-        bind *:443 ssl crt /etc/ssl/rass-vet.tech.pem
-        reqadd X-Forwarded-Proto:\ https
-        http-request set-header X-Forwarded-Proto https
+        # We need to listen on 443 for certificate renewal
+        bind *:443 ssl crt /etc/ssl/www.rass-vet.tech.pem
+
+        # letsencryp validation path for cert request
         acl letsencrypt-acl path_beg /.well-known/acme-challenge/
         use_backend letsencrypt-backend if letsencrypt-acl
+
+        http-request set-header X-Forwarded-Proto https
         default_backend myservers
 
 backend myservers

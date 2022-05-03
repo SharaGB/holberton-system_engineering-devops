@@ -1,7 +1,8 @@
+#!/usr/bin/env bash
 # SSH client configuration
 # Your SSH client configuration must be configured to use the private key ~/.ssh/school
 # Your SSH client configuration must be configured to refuse to authenticate using a password
 
 Host ubuntu
-    PasswordAuthentication no
-    IdentityFile ~/.ssh/school
+  passwordAuthentication no
+  IdentityFile ~/.ssh/school

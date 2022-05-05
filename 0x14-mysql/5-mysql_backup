@@ -2,5 +2,5 @@
 # Generates a MySQL dump and creates a compressed archive out of it.
 password=$1
 file="$(date '+%d-%m-%Y').tar.gz"
-mysqldump -u root -p"$1" --all-databases > backup.sql
+mysqldump -u root -p"$password" --all-databases > backup.sql
 tar -zcvf $file backup.sql

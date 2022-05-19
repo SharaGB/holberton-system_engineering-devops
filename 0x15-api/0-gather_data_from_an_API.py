@@ -5,6 +5,7 @@ from requests import get
 from sys import argv
 
 if __name__ == '__main__':
+    """ Returns information about his/her TODO list progress """
     id = int(argv[1])  # Is the employee ID
     todos = get(
         f'https://jsonplaceholder.typicode.com/todos?userId=%s' % id).json()

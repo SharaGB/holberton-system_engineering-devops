@@ -14,7 +14,7 @@ if __name__ == '__main__':
     EMPLOYEE_NAME = users.get('name')  # Name of the employee
     NUMBER_OF_DONE_TASKS = 0  # Number of completed tasks
     for progress in todos:
-        if progress.get('completed'):
+        if progress.get('completed') is True:
             NUMBER_OF_DONE_TASKS += 1  # Total number of tasks
         TOTAL_NUMBER_OF_TASKS = len(todos)
     # First line: Employee

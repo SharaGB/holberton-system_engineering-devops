@@ -2,45 +2,28 @@
 """ Using this REST API, for a given employee ID, returns
 information about his/her TODO list progress. """
 from requests import get
-from sys import argv, exit
+from sys import argv
 
-if __name__ == "__main__":
-    try:
-        id = argv[1]
-        is_integer = int(id)
-    except Exception:
-        exit()
+if __name__ == '__main__':
+    """ Returns information about his/her TODO list progress """
+    id = int(argv[1])  # Is the employee ID
+    users = get(f'https://jsonplaceholder.typicode.com/users/{id}').json()
+    todos = get(f'https://jsonplaceholder.typicode.com/todos?userId={id}').\
+        json()
 
-    url = "https://jsonplaceholder.typicode.com/"
-    url_user = url + "users?id=" + id
-    url_todo = url + "todos?userId=" + id
-
-    request_user = get(url_user)
-    request_todo = get(url_todo)
-    # Connection and have an access to the json
-    try:
-        jsuser = request_user.json()
-        jstodo = request_todo.json()
-    except ValueError:
-        print("No Json")
-
-    # Assign values
-    if jsuser and jstodo:
-        EMPLOYEE_NAME = jsuser[0].get('name')
-        NUMBER_OF_DONE_TASKS = 0
-        for task in jstodo:
-            if task.get('completed'):
+    if users and todos:
+        EMPLOYEE_NAME = users.get('name')  # Name of the employee
+        NUMBER_OF_DONE_TASKS = 0  # Number of completed tasks
+        for progress in todos:
+            if progress.get('completed') is True:
+                # Total number of tasks
                 NUMBER_OF_DONE_TASKS += 1
-        TOTAL_NUMBER_OF_TASKS = len(jstodo)
-
-        # Print first line
-        print("Employee {} is done with tasks({}/{}):"
-              .format(EMPLOYEE_NAME,
-                      NUMBER_OF_DONE_TASKS,
-                      TOTAL_NUMBER_OF_TASKS))
-
-        # Second and N lines
-        for doing in jstodo:
-            TASK_TITLE = doing.get('title')
-            if doing.get('completed'):
-                print("\t {}".format(TASK_TITLE))
+        TOTAL_NUMBER_OF_TASKS = len(todos)
+        # First line: Employee
+        print(f"Employee {EMPLOYEE_NAME} is done ", end='')
+        print(f"with tasks({NUMBER_OF_DONE_TASKS}/{TOTAL_NUMBER_OF_TASKS}):")
+        # Second and N next lines display the title of completed tasks
+        for tasks in todos:
+            TASK_TITLE = tasks.get('title')
+            if tasks.get('completed') is True:
+                print(f"\t {TASK_TITLE}")

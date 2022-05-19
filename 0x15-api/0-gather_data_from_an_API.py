@@ -19,8 +19,8 @@ if __name__ == '__main__':
                 NUMBER_OF_DONE_TASKS += 1
         TOTAL_NUMBER_OF_TASKS = len(todos)
         # First line: Employee
-        print(f"Employee {EMPLOYEE_NAME} is done with tasks\
-              ({NUMBER_OF_DONE_TASKS}/{TOTAL_NUMBER_OF_TASKS}): ")
+        print(f"Employee {EMPLOYEE_NAME} is done ", end='')
+        print(f"with tasks({NUMBER_OF_DONE_TASKS}/{TOTAL_NUMBER_OF_TASKS}):")
         # Second and N next lines display the title of completed tasks
         for tasks in todos:
             TASK_TITLE = tasks.get('title')

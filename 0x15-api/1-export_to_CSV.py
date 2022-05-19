@@ -15,7 +15,7 @@ if __name__ == '__main__':
     # Open the file in the write mode
     with open('{}.csv'.format(USER_ID), 'w') as f:
         # Create the csv writer
-        csv_writer = csv.writer(f)
+        csv_writer = csv.writer(f, quoting=csv.QUOTE_ALL)
         for progress in todos:
             TASK_COMPLETED_STATUS = progress.get('completed')
             TASK_TITLE = progress.get('title')

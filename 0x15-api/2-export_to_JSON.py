@@ -18,6 +18,6 @@ if __name__ == '__main__':
         dict = {"task": TASK_TITLE, "completed": TASK_COMPLETED_STATUS,
                 "username": USERNAME}
         list.append(dict)
-    print_dict = {USER_ID: list}
-    with open(f'{USER_ID}.json', 'w') as f:
-        json.dump(print_dict, f)
+    data = {USER_ID: list}
+    with open('{}.json'.format(USER_ID), 'w') as jsonfile:
+        json.dump(data, jsonfile)

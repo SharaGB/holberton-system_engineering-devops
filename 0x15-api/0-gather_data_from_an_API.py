@@ -7,9 +7,10 @@ from sys import argv
 if __name__ == '__main__':
     """ Returns information about his/her TODO list progress """
     id = int(argv[1])  # Is the employee ID
-    todos = get(
-        f'https://jsonplaceholder.typicode.com/todos?userId=%s' % id).json()
-    users = get(f'https://jsonplaceholder.typicode.com/users/{id}').json()
+    todos = get('https://jsonplaceholder.typicode.com/todos?userId={}'.
+                format(id)).json()
+    users = get(
+        'https://jsonplaceholder.typicode.com/users/{}'.format(id)).json()
 
     if users and todos:
         EMPLOYEE_NAME = users.get('name')  # Name of the employee
@@ -20,8 +21,8 @@ if __name__ == '__main__':
                 NUMBER_OF_DONE_TASKS += 1
         TOTAL_NUMBER_OF_TASKS = len(todos)
         # First line: Employee
-        print(f"Employee {EMPLOYEE_NAME} is done ", end='')
-        print(f"with tasks({NUMBER_OF_DONE_TASKS}/{TOTAL_NUMBER_OF_TASKS}):")
+        print("Employee {} is done with tasks({}/{}):".format(
+            EMPLOYEE_NAME, NUMBER_OF_DONE_TASKS, TOTAL_NUMBER_OF_TASKS))
         # Second and N next lines display the title of completed tasks
         for tasks in todos:
             TASK_TITLE = tasks.get('title')

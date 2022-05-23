@@ -9,7 +9,7 @@ def recurse(subreddit, hot_list=[], after=None):
     URL = 'https://www.reddit.com/r/{}/hot.json'.format(subreddit)
     r = get(URL, params={"after": after}, headers={"User-agent": "holbie"})
     if r.status_code == 200:
-        data = data.json()
+        data = r.json()
         posts = data['data']['children']
         after = data['data']['after']
         if after is not None:

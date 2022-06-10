@@ -15,9 +15,9 @@
 <p><strong>Read or watch</strong>:</p>
 
 <ul>
-<li><a href="/rltoken/FcpEdqz8hau7eEB0Pi8Ong" title="Linux PID" target="_blank">Linux PID</a> </li>
-<li><a href="/rltoken/hX_t2YK0erLPbdTq0-uKwQ" title="Linux process" target="_blank">Linux process</a> </li>
-<li><a href="/rltoken/SojW4zvL8j1yaoa7_NM6rA" title="Linux signal" target="_blank">Linux signal</a> </li>
+<li><a href="http://www.linfo.org/pid.html" title="Linux PID" target="_blank">Linux PID</a> </li>
+<li><a href="https://www.thegeekstuff.com/2012/03/linux-processes-environment/" title="Linux process" target="_blank">Linux process</a> </li>
+<li><a href="https://www.thegeekstuff.com/2012/03/linux-signals-fundamentals/" title="Linux signal" target="_blank">Linux signal</a> </li>
 </ul>
 
 <p><strong>man or help</strong>:</p>
@@ -33,7 +33,7 @@
 
 <h2>Learning Objectives</h2>
 
-<p>At the end of this project, you are expected to be able to <a href="/rltoken/lg0QA0Ewi3RfiD5UUUNUXw" title="explain to anyone" target="_blank">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
+<p>At the end of this project, you are expected to be able to <a href="https://fs.blog/feynman-learning-technique/" title="explain to anyone" target="_blank">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
 
 <h3>General</h3>
 
@@ -63,6 +63,6 @@
 
 <h2>More Info</h2>
 
-<p>For those who want to know more and learn about all signals, check out <a href="/rltoken/yhnvsg_MvXuhE84jKTeXkQ" title="this article" target="_blank">this article</a>.</p>
+<p>For those who want to know more and learn about all signals, check out <a href="https://www.computerhope.com/unix/signals.htm" title="this article" target="_blank">this article</a>.</p>
 
 </div>

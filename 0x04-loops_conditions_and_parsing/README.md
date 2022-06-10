@@ -1,16 +1,25 @@
 # <a href="url"><img src="https://user-images.githubusercontent.com/90220978/154560769-7ff96e09-924b-49b8-96b7-6aba7cb53ef7.png" align="middle" width="140" height="140"></a> Loops, conditions and parsing.
 
+<div>
+    <h2>
+      About <span class="text-primary">Bash</span> projects
+    </h2>
+    <p>
+      </p><p>Unless stated, all your projects will be auto-corrected with Ubuntu 20.04 LTS.</p>
+    <p></p>
+</div>
+
 <h2>Resources</h2>
 
 <p><strong>Read or watch</strong>:</p>
 
 <ul>
-<li><a href="/rltoken/XnVjFM8a1W4RfRu4TCPY-g" title="The <code>for</code> loop&quot; target=“_blank”>The <code>for</code> loop</a> </li>
+<li><a href="https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_09_01.html" title="The <code>for</code> loop&quot; target=“_blank”>The <code>for</code> loop</a> </li>
 <li><a href=" rltoken="" tkpmmkxbw4dgkxdkt51fza"="" 6mzdeyytpw9r1k0hbkfubq"="" zoh3mqvvhyo_itinhksv6q"="" target="_blank">Loops sample</a> </li>
-<li><a href="/rltoken/IM0Gv6VPzwAmqzlJxETZkw" title="Variable assignment and arithmetic" target="_blank">Variable assignment and arithmetic</a> </li>
-<li><a href="/rltoken/K3E6xI9-goDM-93vsjCpPA" title="Comparison operators" target="_blank">Comparison operators</a> </li>
-<li><a href="/rltoken/0OZLLDT28KrRZdid-l6hwg" title="File test operators" target="_blank">File test operators</a> </li>
-<li><a href="/rltoken/Dyrnap2UC-LrzrmCOJRx8A" title="Make your scripts portable" target="_blank">Make your scripts portable</a> </li>
+<li><a href="https://tldp.org/LDP/abs/html/ops.html" title="Variable assignment and arithmetic" target="_blank">Variable assignment and arithmetic</a> </li>
+<li><a href="https://tldp.org/LDP/abs/html/comparison-ops.html" title="Comparison operators" target="_blank">Comparison operators</a> </li>
+<li><a href="https://tldp.org/LDP/abs/html/fto.html" title="File test operators" target="_blank">File test operators</a> </li>
+<li><a href="https://www.cyberciti.biz/tips/finding-bash-perl-python-portably-using-env.html" title="Make your scripts portable" target="_blank">Make your scripts portable</a> </li>
 </ul>
 
 <p><strong>man or help</strong>:</p>
@@ -26,7 +35,7 @@
 
 <h2>Learning Objectives</h2>
 
-<p>At the end of this project, you are expected to be able to <a href="/rltoken/AVktLDpuzzD92vXnfuqeWg" title="explain to anyone" target="_blank">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
+<p>At the end of this project, you are expected to be able to <a href="https://fs.blog/feynman-learning-technique/" title="explain to anyone" target="_blank">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
 
 <h3>General</h3>
 
@@ -59,9 +68,9 @@
 
 <h3>Shellcheck</h3>
 
-<p><a href="/rltoken/E7Pr2zeM3cdY5-C0HKwtbw" title="Shellcheck" target="_blank">Shellcheck</a> is a tool that will help you write proper Bash scripts. It will make recommendations on your syntax and semantics and provide advice on edge cases that you might not have thought about. <code>Shellcheck</code> is your friend! <strong>All your Bash scripts must pass <code>Shellcheck</code> without any error or you will not get any points on the task</strong>.</p>
+<p><a href="https://github.com/koalaman/shellcheck" title="Shellcheck" target="_blank">Shellcheck</a> is a tool that will help you write proper Bash scripts. It will make recommendations on your syntax and semantics and provide advice on edge cases that you might not have thought about. <code>Shellcheck</code> is your friend! <strong>All your Bash scripts must pass <code>Shellcheck</code> without any error or you will not get any points on the task</strong>.</p>
 
-<p><code>Shellcheck</code> is available on the school’s computers. If you want to use it on your own computer, here is how to <a href="/rltoken/SOX0HZTMgzHbcxrvU1X4hw" title="install it" target="_blank">install it</a>.</p>
+<p><code>Shellcheck</code> is available on the school’s computers. If you want to use it on your own computer, here is how to <a href="https://github.com/koalaman/shellcheck#installing" title="install it" target="_blank">install it</a>.</p>
 
 <p>Examples:</p>
 

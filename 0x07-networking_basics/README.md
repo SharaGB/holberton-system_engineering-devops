@@ -6,20 +6,20 @@
 <p><strong>Read or watch</strong>:</p>
 
 <ul>
-<li><a href="/rltoken/ERGikvYsVP3sa9ZdlAAV4w" title="OSI model" target="_blank">OSI model</a> </li>
-<li><a href="/rltoken/H2peG3mV1MDDEK9c9FpGjA" title="Different types of network" target="_blank">Different types of network</a> </li>
-<li><a href="/rltoken/GLVy5U4Ja4c2BnKYDPwT5Q" title="LAN network" target="_blank">LAN network</a> </li>
-<li><a href="/rltoken/IghQOBbQi3Y-H82l3s9ERg" title="WAN network" target="_blank">WAN network</a> </li>
-<li><a href="/rltoken/osfQ04v-6oWuX4LdcpMYfQ" title="Internet" target="_blank">Internet</a> </li>
-<li><a href="/rltoken/DjY02-vo10kphmiYSa2Msg" title="MAC address" target="_blank">MAC address</a> </li>
-<li><a href="/rltoken/_pRm6TVS3zWV_cKg51Gn4Q" title="What is an IP address" target="_blank">What is an IP address</a> </li>
-<li><a href="/rltoken/Tj1tSxadTHv8kS9Q7lzTpQ" title="Private and public address" target="_blank">Private and public address</a> </li>
-<li><a href="/rltoken/dhF14mh64BX6hULm9XPstg" title="IPv4 and IPv6" target="_blank">IPv4 and IPv6</a> </li>
-<li><a href="/rltoken/uqDHdS73W-CJQakM8vERtQ" title="Localhost" target="_blank">Localhost</a> </li>
-<li><a href="/rltoken/nOeDjXQrw-N8eFmTBiuzqw" title="TCP and UDP" target="_blank">TCP and UDP</a> </li>
-<li><a href="/rltoken/gfKJyK0ztzhyNO0SIvVibQ" title="TCP/UDP ports List" target="_blank">TCP/UDP ports List</a> </li>
-<li><a href="/rltoken/OPrB4crHtTLwUynA5YjVNw" title="What is ping /ICMP" target="_blank">What is ping /ICMP</a> </li>
-<li><a href="/rltoken/yN_ZinFzBaLXuJhOhKiMfw" title="Positional parameters" target="_blank">Positional parameters</a> </li>
+<li><a href="https://en.wikipedia.org/wiki/OSI_model" title="OSI model" target="_blank">OSI model</a> </li>
+<li><a href="https://www.lifewire.com/lans-wans-and-other-area-networks-817376" title="Different types of network" target="_blank">Different types of network</a> </li>
+<li><a href="https://en.wikipedia.org/wiki/Local_area_network" title="LAN network" target="_blank">LAN network</a> </li>
+<li><a href="https://en.wikipedia.org/wiki/Wide_area_network" title="WAN network" target="_blank">WAN network</a> </li>
+<li><a href="https://en.wikipedia.org/wiki/Internet" title="Internet" target="_blank">Internet</a> </li>
+<li><a href="https://whatismyipaddress.com/mac-address" title="MAC address" target="_blank">MAC address</a> </li>
+<li><a href="https://www.bleepingcomputer.com/tutorials/ip-addresses-explained/" title="What is an IP address" target="_blank">What is an IP address</a> </li>
+<li><a href="https://www.iplocation.net/public-vs-private-ip-address" title="Private and public address" target="_blank">Private and public address</a> </li>
+<li><a href="https://www.webopedia.com/insights/ipv6-ipv4-difference/" title="IPv4 and IPv6" target="_blank">IPv4 and IPv6</a> </li>
+<li><a href="https://en.wikipedia.org/wiki/Localhost" title="Localhost" target="_blank">Localhost</a> </li>
+<li><a href="https://www.howtogeek.com/190014/htg-explains-what-is-the-difference-between-tcp-and-udp/" title="TCP and UDP" target="_blank">TCP and UDP</a> </li>
+<li><a href="https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers" title="TCP/UDP ports List" target="_blank">TCP/UDP ports List</a> </li>
+<li><a href="https://en.wikipedia.org/wiki/Ping_%28networking_utility%29" title="What is ping /ICMP" target="_blank">What is ping /ICMP</a> </li>
+<li><a href="https://wiki.bash-hackers.org/scripting/posparams" title="Positional parameters" target="_blank">Positional parameters</a> </li>
 </ul>
 
 <p><strong>man or help</strong>:</p>
@@ -31,7 +31,7 @@
 
 <h2>Learning Objectives</h2>
 
-<p>At the end of this project, you are expected to be able to <a href="/rltoken/e6idBl4rpr11rjIPRtHEKw" title="explain to anyone" target="_blank">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
+<p>At the end of this project, you are expected to be able to <a href="https://fs.blog/feynman-learning-technique/" title="explain to anyone" target="_blank">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
 
 <h3>OSI Model</h3>
 
@@ -109,6 +109,6 @@
 sylvain@ubuntu$
 </code></pre>
 
-<p>Source for question 1 <a href="/rltoken/vQJ6bK8D0vme22Xst44Mqg" title="here" target="_blank">here</a></p>
+<p>Source for question 1 <a href="https://twitter.com/devopsreact/status/831922429215662080" title="here" target="_blank">here</a></p>
 
 </div>

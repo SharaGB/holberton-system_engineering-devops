@@ -8,10 +8,10 @@
 <p><strong>Read or watch</strong>:</p>
 
 <ul>
-<li><a href="/rltoken/7SedZ8ILSQulYf7xzSbraQ" title="What is localhost" target="_blank">What is localhost</a> </li>
-<li><a href="/rltoken/n5IFAt_OWGJtGW33t7Jfag" title="What is 0.0.0.0" target="_blank">What is 0.0.0.0</a> </li>
-<li><a href="/rltoken/21l3Uqizr3LpA1ZGrYPg3g" title="What is the hosts file" target="_blank">What is the hosts file</a> </li>
-<li><a href="/rltoken/uMleIIzkRoR2w8EkwItSEg" title="Netcat examples" target="_blank">Netcat examples</a> </li>
+<li><a href="https://en.wikipedia.org/wiki/Localhost" title="What is localhost" target="_blank">What is localhost</a> </li>
+<li><a href="https://en.wikipedia.org/wiki/0.0.0.0" title="What is 0.0.0.0" target="_blank">What is 0.0.0.0</a> </li>
+<li><a href="https://www.makeuseof.com/tag/modify-manage-hosts-file-linux/" title="What is the hosts file" target="_blank">What is the hosts file</a> </li>
+<li><a href="https://www.thegeekstuff.com/2012/04/nc-command-examples/" title="Netcat examples" target="_blank">Netcat examples</a> </li>
 </ul>
 
 <p><strong>man or help</strong>:</p>
@@ -25,7 +25,7 @@
 
 <h2>Learning Objectives</h2>
 
-<p>At the end of this project, you are expected to be able to <a href="/rltoken/BxPpO9moponw8J8TjKpRlg" title="explain to anyone" target="_blank">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
+<p>At the end of this project, you are expected to be able to <a href="https://fs.blog/feynman-learning-technique/" title="explain to anyone" target="_blank">explain to anyone</a>, <strong>without the help of Google</strong>:</p>
 
 <h3>General</h3>
 
